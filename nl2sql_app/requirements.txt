@@ -1,0 +1,12 @@
+# Core (required)
+streamlit>=1.38.0
+
+# Optional: enables automatic speech-to-text transcription on the
+# Voice-to-SQL page. Without these, you can still record audio and
+# type the transcript manually.
+SpeechRecognition>=3.10.0
+pydub>=0.25.1
+
+# Optional: enables AI-assisted SQL generation via the Anthropic API
+# (only used if you enter an API key in the app's sidebar).
+anthropic>=0.34.0
